@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: dheredat <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/04/06 13:31:57 by dheredat          #+#    #+#              #
-#    Updated: 2019/04/11 16:28:14 by dheredat         ###   ########.fr        #
+#    Updated: 2019/12/23 17:39:59 by dheredat         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,13 +41,13 @@ CCF = -Wall -Wextra -Werror
 all: $(NAME)
 
 $(NAME):
-	gcc $(CCF) -I $(HEAD) -c $(SRCS)
-	ar rc $(NAME) $(OBJS)
+	@gcc $(CCF) -I $(HEAD) -c $(SRCS)
+	@ar rc $(NAME) $(OBJS)
 
 clean:
-	rm -rf $(OBJS)
+	@rm -rf $(OBJS)
 
 fclean: clean
-	rm -rf $(NAME)
+	@rm -rf $(NAME)
 
 re: fclean all

@@ -6,7 +6,7 @@
 #    By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/12/05 16:38:15 by dheredat          #+#    #+#              #
-#    Updated: 2019/12/23 17:21:55 by dheredat         ###   ########.fr        #
+#    Updated: 2019/12/23 17:41:06 by dheredat         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,7 +46,7 @@ $(LIBFT):
 $(NAME): $(LIBFT) $(OBJ_DIR) $(OBJS) $(FDF_H)
 	@echo "\033[35mCompiling ./fdf\033[0m"
 	@gcc $(LIBFT) $F $(OBJS) $(CHECKER_OBJ) -o $(NAME) $(MLXFLAGS)
-	@echo "\033[1;32mProject was built\033[0m"
+	@echo "\033[1;32mProject FdF was built\033[0m"
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 	@gcc $(FLAGS) -c $< -I$(INC_DIR) -I$(LIBFT_DIR) -o $@
@@ -58,6 +58,6 @@ clean:
 fclean: clean
 	@rm -rf $(NAME)
 	@make -C ft_printf fclean
-	@echo "\033[3;36mProject fully cleaned\033[0m"
+	@echo "\033[3;36mProject FdF fully cleaned\033[0m"
 
 re: fclean all

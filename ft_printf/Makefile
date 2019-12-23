@@ -6,7 +6,7 @@
 #    By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/26 15:36:22 by dheredat          #+#    #+#              #
-#    Updated: 2019/10/26 17:33:29 by dheredat         ###   ########.fr        #
+#    Updated: 2019/12/23 17:47:33 by dheredat         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -81,7 +81,7 @@ clean:
 fclean: clean
 	@rm -Rf $(NAME)
 	@make -C libft fclean
-	@echo "\033[3;36mProject fully cleaned\033[0m"
+	@echo "\033[3;36mProject ft_printf fully cleaned\033[0m"
 
 
 re: fclean all
