@@ -6,11 +6,11 @@
 /*   By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/23 15:38:04 by dheredat          #+#    #+#             */
-/*   Updated: 2019/12/23 15:38:55 by dheredat         ###   ########.fr       */
+/*   Updated: 2019/12/23 16:57:34 by dheredat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/fdf.h"
+#include "../inc/fdf.h"
 
 void	get_max_z(void)
 {

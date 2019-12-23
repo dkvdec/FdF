@@ -6,11 +6,11 @@
 /*   By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/23 15:44:19 by dheredat          #+#    #+#             */
-/*   Updated: 2019/12/23 15:47:16 by dheredat         ###   ########.fr       */
+/*   Updated: 2019/12/23 16:57:48 by dheredat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/fdf.h"
+#include "../inc/fdf.h"
 
 void	set_static_position(int key)
 {

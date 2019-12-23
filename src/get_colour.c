@@ -6,11 +6,11 @@
 /*   By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/23 15:41:36 by dheredat          #+#    #+#             */
-/*   Updated: 2019/12/23 15:43:29 by dheredat         ###   ########.fr       */
+/*   Updated: 2019/12/23 16:57:40 by dheredat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/fdf.h"
+#include "../inc/fdf.h"
 
 char	num(char c)
 {

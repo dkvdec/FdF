@@ -6,11 +6,11 @@
 /*   By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/04 14:43:14 by dheredat          #+#    #+#             */
-/*   Updated: 2019/12/23 16:12:30 by dheredat         ###   ########.fr       */
+/*   Updated: 2019/12/23 16:58:11 by dheredat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/fdf.h"
+#include "../inc/fdf.h"
 
 int		close_window(void *ptr)
 {

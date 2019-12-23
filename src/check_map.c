@@ -6,11 +6,11 @@
 /*   By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/23 15:36:13 by dheredat          #+#    #+#             */
-/*   Updated: 2019/12/23 15:42:58 by dheredat         ###   ########.fr       */
+/*   Updated: 2019/12/23 16:57:19 by dheredat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/fdf.h"
+#include "../inc/fdf.h"
 
 void	free_strsplit(char ***str)
 {

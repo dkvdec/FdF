@@ -6,7 +6,7 @@
 /*   By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/28 17:52:30 by dheredat          #+#    #+#             */
-/*   Updated: 2019/12/23 16:11:43 by dheredat         ###   ########.fr       */
+/*   Updated: 2019/12/23 16:59:37 by dheredat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -166,5 +166,8 @@ void				brez_alg2(int x0, int x1, int y0, int y1);
 
 void				get_win(void);
 void				global_zero(void);
+char				num(char c);
+int					sys(char c, int base);
+int					ft_atoi_base(const char *s, int base);
 
 #endif

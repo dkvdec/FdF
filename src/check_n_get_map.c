@@ -6,11 +6,11 @@
 /*   By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/11 21:37:46 by dheredat          #+#    #+#             */
-/*   Updated: 2019/12/23 15:42:11 by dheredat         ###   ########.fr       */
+/*   Updated: 2019/12/23 16:57:28 by dheredat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/fdf.h"
+#include "../inc/fdf.h"
 
 void	fill_line(char *line, int i)
 {

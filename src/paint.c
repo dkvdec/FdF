@@ -6,11 +6,11 @@
 /*   By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/22 17:39:45 by dheredat          #+#    #+#             */
-/*   Updated: 2019/12/22 20:59:02 by dheredat         ###   ########.fr       */
+/*   Updated: 2019/12/23 16:58:05 by dheredat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/fdf.h"
+#include "../inc/fdf.h"
 
 void	paint_zz(void)
 {
