@@ -6,7 +6,7 @@
 /*   By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/28 17:52:30 by dheredat          #+#    #+#             */
-/*   Updated: 2019/12/23 16:59:37 by dheredat         ###   ########.fr       */
+/*   Updated: 2019/12/23 17:16:20 by dheredat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -139,7 +139,7 @@ void				set_static_position(int key);
 void				rotate_direction2(int key);
 void				rotate_direction(int key);
 void				move_center(int key);
-int					deal_key(int key, void *param);
+int					deal_key(int key);
 
 /*
 ** PAINT.C

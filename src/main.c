@@ -6,7 +6,7 @@
 /*   By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/23 16:12:01 by dheredat          #+#    #+#             */
-/*   Updated: 2019/12/23 16:57:59 by dheredat         ###   ########.fr       */
+/*   Updated: 2019/12/23 17:17:46 by dheredat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ int		main(int argc, char **argv)
 	int		fd;
 	char	*pnt;
 
+	pnt = NULL;
 	if (argc == 1)
 		error_display("WE NEED MORE MAPS!!!");
 	else if (argc == 2)

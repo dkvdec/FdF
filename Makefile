@@ -6,7 +6,7 @@
 #    By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/12/05 16:38:15 by dheredat          #+#    #+#              #
-#    Updated: 2019/12/23 16:58:16 by dheredat         ###   ########.fr        #
+#    Updated: 2019/12/23 17:21:55 by dheredat         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ MLXFLAGS = 	-I /usr/local/include \
 			-framework OpenGL \
 			-framework AppKit
 
-SRC	=	check_map.c check_n_get_map.c count_map.check_map \
+SRC	=	check_map.c check_n_get_map.c count_map.c \
 		get_colour.c key_event.c main.c paint.c test.c
 
 SRC_T		=	$(addprefix $(SRC_DIR)/,$(SRC))
@@ -44,8 +44,8 @@ $(LIBFT):
 	@make -C ft_printf
 
 $(NAME): $(LIBFT) $(OBJ_DIR) $(OBJS) $(FDF_H)
-	@echo "\033[35mCompiling ./checker\033[0m"
-	@gcc $(LIBFT) $F $(OBJS) $(CHECKER_OBJ) -o $(NAME)
+	@echo "\033[35mCompiling ./fdf\033[0m"
+	@gcc $(LIBFT) $F $(OBJS) $(CHECKER_OBJ) -o $(NAME) $(MLXFLAGS)
 	@echo "\033[1;32mProject was built\033[0m"
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
