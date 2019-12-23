@@ -6,7 +6,7 @@
 /*   By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/23 15:44:19 by dheredat          #+#    #+#             */
-/*   Updated: 2019/12/23 17:15:54 by dheredat         ###   ########.fr       */
+/*   Updated: 2019/12/23 20:14:55 by dheredat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ void	set_static_position(int key)
 	else if (key == kVK_ANSI_S)
 	{
 		t_win.angle_x = -PI / 3;
-		t_win.angle_y = -PI / 3;
-		t_win.angle_z = -PI / 4;
+		t_win.angle_y = -PI / 6;
+		t_win.angle_z = 0.0;
 	}
 	else if (key == kVK_ANSI_D)
 	{

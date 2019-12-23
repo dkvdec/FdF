@@ -6,7 +6,7 @@
 /*   By: dheredat <dheredat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/28 17:52:30 by dheredat          #+#    #+#             */
-/*   Updated: 2019/12/23 17:16:20 by dheredat         ###   ########.fr       */
+/*   Updated: 2019/12/23 18:10:34 by dheredat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,41 +45,41 @@
 
 # define BUFFSIZE 5000000
 
-typedef struct      s_point{
-	double          x;
-	double          y;
-	double          z;
-	int             colour;
-}                   t_point;
-
-struct              s_map
-{
-	t_point         **o_map;
-	t_point			**c_map;
-	int             max_x;
-	int             max_y;
-	int             max_z;
-	double          mid_x;
-	double          mid_y;
-	double          mid_z;
+typedef struct		s_point{
+	double			x;
+	double			y;
+	double			z;
 	int				colour;
-}                   t_map;
+}					t_point;
 
-struct              s_win{
-	void            *mlx_ptr;
-	void            *win_ptr;
-	int             mid_x;
-	int             mid_y;
-	void            *img;
+struct				s_map
+{
+	t_point			**o_map;
+	t_point			**c_map;
+	int				max_x;
+	int				max_y;
+	int				max_z;
+	double			mid_x;
+	double			mid_y;
+	double			mid_z;
+	int				colour;
+}					t_map;
+
+struct				s_win{
+	void			*mlx_ptr;
+	void			*win_ptr;
+	int				mid_x;
+	int				mid_y;
+	void			*img;
 	int				*data;
-	int             bbp;
-	int             szln;
-	int             end;
+	int				bbp;
+	int				szln;
+	int				end;
 	int				zoom;
 	double			angle_x;
 	double			angle_y;
 	double			angle_z;
-}                   t_win;
+}					t_win;
 
 struct				s_p
 {
@@ -92,7 +92,6 @@ struct				s_p
 	int				y1;
 }					t_p;
 
-
 /*
 ** /////////////////////////// CHECK_N_GET_MAP ////////////////////////////
 */
@@ -101,31 +100,30 @@ struct				s_p
 ** CHECK_N_GET_MAP.C
 */
 
-void 				fill_line(char *line, int i);
+void				fill_line(char *line, int i);
 void				create_c_map(void);
-void 				create_n_fill_map(char *buff);
-void 				check_n_get_map(int fd);
+void				create_n_fill_map(char *buff);
+void				check_n_get_map(int fd);
 
 /*
 ** CHECK_MAP.C
 */
 
-void 				free_strsplit(char ***str);
+void				free_strsplit(char ***str);
 void				check_hex(char *str);
 void				word_check(char *str);
-void 				check_line(char *line);
-void 				check_map(char *buff);
+void				check_line(char *line);
+void				check_map(char *buff);
 
 /*
 ** COUNT_MAP.C
 */
 
-void 				get_max_z(void);
-void 				get_map_mid(void);
-void 				recount_coordinates(void);
+void				get_max_z(void);
+void				get_map_mid(void);
+void				recount_coordinates(void);
 void				rotate_point(int i, int j);
-void 				rotation(void);
-
+void				rotation(void);
 
 /*
 ** /////////////////////////// PAINT_MAP_BLOCK ////////////////////////////
@@ -156,7 +154,7 @@ void				paint_mm(void);
 */
 
 int					close_window(void *ptr);
-void    			error_display(char *str);
+void				error_display(char *str);
 void				brez_alg(void);
 void				brez_alg2(int x0, int x1, int y0, int y1);
 
